@@ -1,4 +1,4 @@
-import NavLinks from "./navLinks"
+import NavLinks from "./navlinks"
 import "./index.css"
 import Logo from "../img/logo.svg"
 const Navegation = () => {

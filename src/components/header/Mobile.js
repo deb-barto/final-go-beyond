@@ -1,4 +1,4 @@
-import NavLinks from './navLinks'
+import NavLinksMobile from './navLinksMobile'
 import { FiMenu} from '@react-icons/all-files/fi/FiMenu';
 import "./index.css"
 import {useState} from 'react'
@@ -14,7 +14,7 @@ const MobileNav = () => {
         size='30px' 
         color='white'
         onClick={() => setOpen(!open)}/>
-        {open && <NavLinks/>}
+        {open && <NavLinksMobile/>}
         </nav>
     );
 }
