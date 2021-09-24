@@ -19,9 +19,8 @@ ul{
     height:220px;
     margin:30px;
     display: flex;
-    background-color:rgb(255, 255, 255);
-    display:flex;
-    padding-left: 30px;
+    padding:30px;
+    justify-content: space-between;
 }
 .paises-lista
 {
@@ -38,7 +37,6 @@ ul{
 .infos-lista{
     height:220px;
     max-width: 35vw;
-
     display:flex;
 
 }
@@ -136,7 +134,7 @@ ul{
         display:flex;
         flex-direction:column;
         width:100vw;
-        margin-top:250px;
+        margin-top:110px;
         align-items:center;
     }
     .redes-sociais{
@@ -171,9 +169,7 @@ ul{
 
     .infos-lista{
         width:30vw;
-        height:350px;
-        margin:30px;
-        display: flex;
+        height:150px;
         flex-direction:column;
         background-color:rgb(255, 255, 255);
         display:flex;
