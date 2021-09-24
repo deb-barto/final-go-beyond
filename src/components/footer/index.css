@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap');
+
+ul{
+    list-style-type: none;
+}
+
+.footer{
+    position:relative;
+    display:flex;
+    justify-self: end;
+    bottom:0;
+    width:100%;
+    align-self:flex-end;
+    height:210px;
+}
+
+.infos-lista{
+    width:30vw;
+    height:220px;
+    margin:30px;
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    padding-left: 30px;
+}
+.paises-lista
+{
+    width:70vw;
+    height:220px;
+    display:flex;
+}
+
+.footer p {
+    font-family:Montserrat;
+    font-size: 12px;
+
+}
+.infos-lista{
+    height:220px;
+    max-width: 35vw;
+
+    display:flex;
+
+}
+
+.redes-sociais{
+    display:flex;
+    justify-content:space-evenly;
+    max-width:10vw;
+    height:100px;
+    align-items: flex-end;
+    cursor:pointer;
+
+    
+}
+.redes-sociais .a:hover{
+    color:rgb(141, 141, 141);
+    transition: ease-in 0.3s;
+
+}
+
+.menu-footer{
+    width:150px;
+    margin-left:30px;
+}
+
+.menu-footer ul li a:hover{
+    color:rgb(163, 163, 163);
+    transition: ease-in 0.3s;
+}
+
+
+.menu-footer ul li {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.menu-footer ul li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-weight:700;
+    font-size:14px;
+    width:100%;
+}
+
+
+
+.paises-lista{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    padding:50px;
+    height:250px;
+}
+
+.paises{
+    height:220px;
+    display:flex;
+    flex-direction:column;
+    width:13vw;
+    padding-left:50px;
+
+}
+
+.NomePais{
+    padding-top:20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Endereço{
+    padding-top:15px;
+    font-family: Montserrat;
+    font-weight:regular;
+    font-size: 12px;
+}
+
+@media ( max-width: 996px){
+
+    .footer{
+        display:flex;
+        flex-direction:column;
+        height:920px;
+    }
+    .corebiz{
+        display:flex;
+        flex-direction:column;
+    }
+    .coluna-core{
+        display:flex;
+        flex-direction:column;
+        width:100vw;
+        margin-top:250px;
+        align-items:center;
+    }
+    .redes-sociais{
+        width:100vw;
+        height:50px;
+        padding-bottom: 20px;
+    }
+    .logo-core{
+        align-self: center;
+    }
+    .menu-footer{
+        width:93vw;
+        margin-left:0px;
+        margin-bottom: 100px;
+        text-align:center;
+    }
+    .menu-footer ul li a{
+        text-decoration:none;
+        color:rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size:15px;
+        width:100%;
+        text-align:center;
+    }
+    .redes-sociais{
+        display:flex;
+        justify-content:space-evenly;
+        cursor:pointer;
+        margin:auto;
+    }
+
+    .infos-lista{
+        width:30vw;
+        height:350px;
+        margin:30px;
+        display: flex;
+        flex-direction:column;
+        background-color:rgb(255, 255, 255);
+        display:flex;
+        padding-left: 30px;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        margin:auto;
+    }
+    .paises-lista
+    {
+        width:100vw;
+        height:70px;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        background-color:rgb(248, 248, 248);
+        margin:0;
+        margin-top: 40px;
+    }
+    .paises{
+        display:flex;
+        height:110px;
+        flex-direction:column;
+        width:100vw;
+        padding-left:30px;
+        margin:0;
+    }
+}

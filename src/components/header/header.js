@@ -1,6 +1,6 @@
 import React from "react";
 import './index.css'
-import MobileNav from "./Mobile"
+import MobileNav from "./mobile/Mobile.js"
 import Navegation from "./navegation"
 
 function Header() {

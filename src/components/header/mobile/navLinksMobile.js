@@ -1,10 +1,10 @@
-import './index.css'
+import '../index.css'
 import { motion } from "framer-motion"
 
 const NavLinksMobile = (props) => {
 
     const animateFrom = {opacity: 0, y:-40}
-    const animateTo = {opacity:1, y:110}
+    const animateTo = {opacity:1, y:120}
 
     return(
         <ul>

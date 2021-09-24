@@ -1,8 +1,8 @@
 import NavLinksMobile from './navLinksMobile'
 import { FiMenu} from '@react-icons/all-files/fi/FiMenu';
-import "./index.css"
+import "../index.css"
 import {useState} from 'react'
-import Logo from '../img/logo.svg'
+import Logo from '../../img/logo.svg'
 
 const MobileNav = () => {
     const  [open, setOpen] = useState(false);
