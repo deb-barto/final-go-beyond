@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./tabmenu.css";
+import { IoIosArrowDroprightCircle } from '@react-icons/all-files/io/IoIosArrowDroprightCircle'
 
 export default function TabMenu() {
    
@@ -32,11 +33,13 @@ const [dados, setDados] = useState([
     <div className="container-main">
 
           
-    <div className="main-tile">
+    <div className="main-title">
     <h1>{dados[indice].title}</h1>
-        <a href="https://www.corebiz.ag/pt/">
-            <h4 ClassName="titulo-botão"> Veja Mais</h4>
-        </a>
+            <button type="button" className="botao-main">  
+                <h4 className="titulo-botao"> 
+                Veja Mais  <IoIosArrowDroprightCircle className="icon-arrow"/>
+                </h4>
+             </button>
     </div>
 
 
@@ -78,7 +81,7 @@ const [dados, setDados] = useState([
 
         <div className="banner">
           <div className="container-banner">
-            <img src={dados[indice].imgUrl} alt="banner" />
+            <img src={dados[indice].imgUrl} alt="banner" className="imagemTab" />
           </div>
         </div>
 
