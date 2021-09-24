@@ -12,25 +12,25 @@ const NavLinks = (props) => {
                 initial={animateFrom}
                 animate={animateTo}
                 transition={{delay:0.08}}>
-                <a href ="/">a corebiz</a>
+                <a href ="https://www.corebiz.ag/pt/about/">a corebiz</a>
             </motion.li>
             <motion.li 
                 initial={animateFrom}
                 animate={animateTo}
                 transition={{delay:0.08}}>
-                <a href ="/">serviços</a>
+                <a href ="https://www.corebiz.ag/pt/#framework-title">serviços</a>
             </motion.li>
             <motion.li
                 initial={animateFrom}
                 animate={animateTo}
                 transition={{delay:0.08}}>
-                <a href ="/">cases</a>
+                <a href ="https://www.corebiz.ag/pt/cases/">cases</a>
             </motion.li>
             <motion.li 
                 initial={animateFrom}
                 animate={animateTo}
                 transition={{delay:0.08}}>
-                <a href ="/">contato</a>
+                <a href ="https://www.corebiz.ag/pt/contato/">contato</a>
             </motion.li>
         </ul>
     );

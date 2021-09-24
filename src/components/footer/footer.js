@@ -20,18 +20,18 @@ function Footer() {
                 </div>
             </div>
              <div className="redes-sociais">
-                <div className="a"><FaFacebook/></div>
-                <div className="a"><FaInstagram/></div>
-                <div className="a"><FaLinkedin/></div>
+                <div className="a"><a href="https://github.com/hana-bananaa"><FaFacebook/></a></div>
+                <div className="a"><a href="https://www.instagram.com/debra_barto/"><FaInstagram/></a></div>
+                <div className="a"><a href="https://www.linkedin.com/in/debora-barto/"><FaLinkedin/></a></div>
              </div>
         </div>
 
          <div className="menu-footer">
              <ul>
-                 <li><a href ="/">a corebiz</a></li>
-                 <li><a href ="/">serviços</a></li>
-                 <li><a href ="/">cases</a></li>
-                 <li><a href ="/">contato</a></li>
+                 <li><a href ="https://www.corebiz.ag/pt/about/">a corebiz</a></li>
+                 <li><a href ="https://www.corebiz.ag/pt/#framework-title">serviços</a></li>
+                 <li><a href ="https://www.corebiz.ag/pt/cases/">cases</a></li>
+                 <li><a href ="https://www.corebiz.ag/pt/contato/">contato</a></li>
              </ul>
          </div>
         </div>
